@@ -1,0 +1,21 @@
+.scoreBoardList{
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  margin-block-start: unset;
+  margin-block-end: unset;
+  padding-inline-start: 0px;
+  gap: 4px;
+}
+
+.scoreBoardItem{
+  display: flex;
+  align-items: flex-start;
+  gap: 6px;
+}
+
+.separator{
+  flex-grow: 1;
+  height: 10px;
+  border-bottom: 2px dotted #fff;
+}
