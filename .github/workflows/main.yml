@@ -17,4 +17,4 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - run: |
         npm i
-        npm run build
+        npm run build:ocean

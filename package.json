@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
+    "build:ocean": "tsc && vite build --base=/snake/",
     "preview": "vite preview"
   },
   "dependencies": {
